@@ -1,0 +1,28 @@
+.form{
+    background-color: rgba(10, 10, 10, 0.801);
+    width: 80%;
+    margin: 0 auto;
+    /* height: 80vh; */
+    color: #eee;
+    padding: 2rem;
+}
+
+.form__form{
+    display: block;
+    /* flex-flow: column; */
+}
+input{
+    color: #eee;
+    /* text-align: center; */
+    width: 80%;
+    background: none;
+    /* border: 1px solid #6C7A89; */
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding: 8px 19px;
+}
+
+*:focus {
+    outline: none;
+}

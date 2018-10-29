@@ -1,0 +1,10 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 0.808);
+    padding: 1.5rem;
+}
+
+.header__title{
+    color: white;
+}

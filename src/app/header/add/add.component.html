@@ -1,0 +1,49 @@
+<div class="form">
+  <form class="form__form" #employeeForms="ngForm" (submit)="submit(employeeForms)">
+    <label for=""> Status </label>
+    <br>
+    <select>
+        <option value="open">Open</option>
+        <option value="closed" selected> Closed</option>
+      </select>
+      <br>
+
+    <label for="quotetype"> Quote Type </label>
+    <br>
+    <input type="text" id="quotetype" name="quotetype" [(ngModel)]="quotetype" class="form__qtype">
+    <br>
+
+    <label for="tasktype"> Task Type </label>
+    <br>
+    <input type="text" id="tasktype" name="tasktype" [(ngModel)]="tasktype" class="form__ttype">
+    <br>
+
+    <label for="contactname"> Contact Name </label>
+    <br>
+    <input type="text" name="name" [(ngModel)]="name" id="contactname" class="form__cname">
+    <br>
+
+    <label for="quotenum"> Quote Number</label>
+    <br>
+    <input type="number" id="quotenum" name="quotenumber" [(ngModel)]="quotenumber" class="form__qnum">
+    <br>
+
+    <label for="quote"> Quote</label>
+    <br>
+    <input type="text" id="quote" name="quote" [(ngModel)]="quote" class="form__quote">
+    <br>
+
+    <label for="taskdescription"> Task Description </label>
+    <br>
+    <textarea name="taskdescription" 
+              id="taskdescription" 
+              cols="30" 
+              rows="10"
+              name="taskdescription"
+              [(ngModel)]="taskdescription"
+              ></textarea>
+
+    <button class="form__submit"> Submit </button>
+  </form>
+{{ employeeForms.value | json }}
+</div>
