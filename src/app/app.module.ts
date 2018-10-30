@@ -11,6 +11,8 @@ import { AddComponent } from './header/add/add.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
+import {ButtonModule} from 'primeng/button';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
     HttpModule,
     AppRoutingModule,
+    TableModule,
+    ButtonModule
     
   ],
   providers: [],
