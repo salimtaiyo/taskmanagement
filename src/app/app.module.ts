@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TableComponent } from './table/table.component';
 import { AddComponent } from './header/add/add.component';
+import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { AddComponent } from './header/add/add.component';
   imports: [
     BrowserModule,
     FormsModule,
+    CoreModule,
+    SharedModule,
     HttpModule,
     AppRoutingModule,
     

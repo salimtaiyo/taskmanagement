@@ -1,4 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import { Task } from '../task'
+import { ServicesService } from '../services/services.service';
+
+const ELEMENT_DATA = [
+  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
+  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
+  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},
+  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},
+  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},
+  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},
+  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},
+  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},
+  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},
+  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
+];
 
 @Component({
   selector: 'app-table',
@@ -6,41 +21,36 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-
+  posts:any;
+  Tasklist : Task[];
   public fetchedData:any[]=[];
-  constructor() {}
+  constructor(private service: ServicesService) {}
 
-  ngOnInit() {
-    
-  }
-
-  createData(){
-    let api:any[] = [];
+  checkLocalStorage(){
     let checkLocalstorage = localStorage.getItem('order');
+
     if(checkLocalstorage === null){
-        for(let i =1; i<=50;i++){
-            api.push({
-                quoteid: i,
-                status : "open", 
-                quotetype : "BF",
-                quotenumber : "777", 
-                tasktype : "Follow-up",
-                name : "shaoshao", 
-                duetime: {
-                  hour: "21",
-                  min: "07"
-                },
-                dueday:{
-                  year:"2017",
-                  month:"07",
-                  day:"07"
-                },
-                taskdescription: ["zzzzz"]
-            })
-        }
-        localStorage.setItem('order', JSON.stringify(api))
+      this.service.getPosts().subscribe(response =>{
+        this.posts = response.json();
+        localStorage.setItem('order', JSON.stringify(this.posts))
+      }, (error: Response) =>{
+        alert(error)
+      })
     }
     this.fetchedData = JSON.parse(localStorage.getItem('order'));
   }
 
+  ngOnInit() {
+    this.checkLocalStorage();
+  }
+  
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  dataSource = ELEMENT_DATA;
 }
+
+// function c(){
+//   // $localStorage.clear('order');
+//   // $localStorage.$reset();
+//   localStorage.clear()
+// }
+// c();

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-
+import { log } from 'util';
 
 @Component({
   selector: 'app-add',
@@ -8,9 +8,17 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./add.component.css']
 })
 export class AddComponent implements OnInit {
-
+ 
   submit(data:NgForm):void{ 
-    console.log(data.value);
+    let getData = JSON.parse(localStorage.getItem('order'));
+    let addedId = {quoteid: 100, ...data.value};
+
+    let aaa = new Date(data.value.date);
+    console.log(aaa.getFullYear());
+
+    // getData.push(data.value);
+    // localStorage.setItem('order',JSON.stringify(getData));
+    
   }
   constructor() { }
 

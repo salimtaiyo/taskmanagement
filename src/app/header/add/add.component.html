@@ -1,49 +1,68 @@
-<div class="form">
-  <form class="form__form" #employeeForms="ngForm" (submit)="submit(employeeForms)">
-    <label for=""> Status </label>
-    <br>
-    <select>
-        <option value="open">Open</option>
-        <option value="closed" selected> Closed</option>
-      </select>
-      <br>
+<div class="form" >
 
-    <label for="quotetype"> Quote Type </label>
-    <br>
-    <input type="text" id="quotetype" name="quotetype" [(ngModel)]="quotetype" class="form__qtype">
-    <br>
+  <div class="form__header">
+    <h5> Add task </h5>
+  </div>
+  <form class="example-container" 
+        #employeeForms="ngForm" 
+        (submit)="submit(employeeForms)">
 
-    <label for="tasktype"> Task Type </label>
-    <br>
-    <input type="text" id="tasktype" name="tasktype" [(ngModel)]="tasktype" class="form__ttype">
-    <br>
+      <mat-form-field>
+        <mat-select placeholder="Status" name="status" [(ngModel)]="status">
+          <mat-option value="open"> Open</mat-option>
+          <mat-option value="closed"> Closed </mat-option>
+        </mat-select>
+      </mat-form-field>
 
-    <label for="contactname"> Contact Name </label>
-    <br>
-    <input type="text" name="name" [(ngModel)]="name" id="contactname" class="form__cname">
-    <br>
+      <mat-form-field>
+        <input matInput 
+                placeholder="Quote Type"
+                name="quotetype" 
+                [(ngModel)]="quotetype">
+      </mat-form-field>
+    
+      <mat-form-field>
+        <input matInput 
+                placeholder="Task Type" 
+                name="tasktype" 
+                [(ngModel)]="tasktype">
+      </mat-form-field>
 
-    <label for="quotenum"> Quote Number</label>
-    <br>
-    <input type="number" id="quotenum" name="quotenumber" [(ngModel)]="quotenumber" class="form__qnum">
-    <br>
+      <mat-form-field>
+        <input matInput 
+                placeholder="Contact Name" 
+                name="contactname" 
+                [(ngModel)]="contactname">
+      </mat-form-field>
 
-    <label for="quote"> Quote</label>
-    <br>
-    <input type="text" id="quote" name="quote" [(ngModel)]="quote" class="form__quote">
-    <br>
+      <mat-form-field>
+        <input matInput 
+                placeholder="Quote Number"
+                name="quotenumber" 
+                [(ngModel)]="quotenumber">
+      </mat-form-field>
 
-    <label for="taskdescription"> Task Description </label>
-    <br>
-    <textarea name="taskdescription" 
-              id="taskdescription" 
-              cols="30" 
-              rows="10"
-              name="taskdescription"
-              [(ngModel)]="taskdescription"
-              ></textarea>
+      <mat-form-field>
+        <input matInput 
+               placeholder="Quote" 
+               name="quote" 
+               [(ngModel)]="quote">
+      </mat-form-field>
 
-    <button class="form__submit"> Submit </button>
+      <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Due Date" name="date" [(ngModel)]="date">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field>
+        <textarea matInput 
+                  placeholder="Task Description" 
+                  name="taskdescription"
+                  [(ngModel)]="taskdescription"></textarea>
+      </mat-form-field>
+
+      <button id="form__button"> Submit </button>
   </form>
-{{ employeeForms.value | json }}
+<!-- {{ employeeForms.value | json }} -->
 </div>
