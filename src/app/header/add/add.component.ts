@@ -11,27 +11,22 @@ export class AddComponent implements OnInit {
  
   constructor() { }
 
-  // submit(data:NgForm):void{ 
-  //   let getData = JSON.parse(localStorage.getItem('order'));
-  //   // let parsedDate = new Date(data.value.fullDate);
+  submit(data:NgForm):void{ 
+    let getData = JSON.parse(localStorage.getItem('order'));
+    let parsedDate = new Date(data.value.fullDate);
      
-  //   // let year = parsedDate.getFullYear();
-  //   // let month = parsedDate.getMonth();
-  //   // let day = parsedDate.getDay();
-  
-  //   let addedId = {quoteid: getData.length + 1, 
-  //     // date: {
-  //     //   year: year, 
-  //     //   month: month,
-  //     //   day: day
-  //     // }, 
-  //   ...data.value};
+    let year = parsedDate.getFullYear();
+    let month = parsedDate.getMonth();
+    let day = parsedDate.getDay();
+    let hrs = parsedDate.getHours();
+    let mins = parsedDate.getMinutes();
 
-  //   getData.push(addedId);
+    let date = `${month < 10? "0" + month: month}/${day <10 ? "0" + day: day}/${year} ${hrs<10? "0"+ hrs: hrs}-${mins<10?"0"+mins:mins}`;
 
-  //   localStorage.setItem('order', JSON.stringify(getData));
-
-  // }
+    let addedId = { quoteid: getData.length, dueday: date, ...data.value };
+    getData.push(addedId);
+    localStorage.setItem('order', JSON.stringify(getData));
+  }
   
 
   ngOnInit() {

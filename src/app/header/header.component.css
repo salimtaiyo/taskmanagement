@@ -8,3 +8,13 @@
 .header__title{
     color: white;
 }
+
+.header__add, .header__home{
+    padding: .4rem;
+    font-size: 1.2rem;
+    color: #eee;
+}
+
+.header__add:hover, .header__home:hover{
+    cursor: pointer;
+}

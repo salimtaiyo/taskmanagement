@@ -1,695 +1,763 @@
-[
-  {
-    "quoteid": "1",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+[{
+  "quoteid": 1,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 1, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "2",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 2,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 2, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "3",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 3,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 3, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "4",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 4,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 4, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "5",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 5,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 5, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "6",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 6,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 6, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "7",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 7,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 7, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },
 {
-    "quoteid": "8",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 8,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 8, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 9,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 9, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 10,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 10, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 11,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 11, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 12,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 12, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 13,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 13, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 14,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 14, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 15,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 15, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 16,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 16, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 17,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 17, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 18,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 18, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 19,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 19, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "9",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 20,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 20, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 21,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 21, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 22,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 22, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},
+{
+  "quoteid": 23,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 23, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "10",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 24,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 24, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "11",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 25,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 25, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "12",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 26,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 26, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "13",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 27,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 27, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "14",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 28,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 28, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "15",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 29,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 29, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "16",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 30,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 30, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "17",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 31,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 31, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "18",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 32,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" :32, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "19",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 33,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 33, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "20",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 34,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 34, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "21",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 35,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 35, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "22",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 36,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 36, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "23",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 37,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 37, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "24",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 38,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 38, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "25",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 39,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 39, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "26",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 40,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 40, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "27",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 41,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 41, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "28",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 42,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 42, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "29",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 43,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 43, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "30",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 44,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 44, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "31",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 45,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 45, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "32",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 46,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 46, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "33",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 47,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 47, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "33",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 48,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 48, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "34",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 49,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 49, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "35",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 50,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 50, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "36",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 51,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 51, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 },{
-    "quoteid": "37",
-    "status" : "open", 
-    "quotetype" : "BF",
-    "quotenumber" : "777", 
-    "tasktype" : "Follow-up",
-    "contactname" : "shaoshao", 
-    "quote": "QUOTE",
-    "duetime": {
-      "hour": "21",
-      "min": "07"
-    },
-    "dueday":{
-      "year":"2017",
-      "month":"07",
-      "day":"07"
-    },
-    "taskdescription": "Follow up Shao Shao"
+  "quoteid": 52,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 52, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 53,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 53, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 54,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 54, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 55,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 55, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 56,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 56, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 57,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 57, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 58,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 58, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 59,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 59, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 60,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 60, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 61,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 61, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 62,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 62, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 63,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 63, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 64,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 64, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 65,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 65, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 66,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 66, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 67,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 67, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 68,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 68, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 69,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 69, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 70,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 70, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 71,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 71, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 72,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 72,
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 73,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 73, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
+},{
+  "quoteid": 74,
+  "status" : "open", 
+  "quotetype" : "BF",
+  "quotenumber" : 74, 
+  "tasktype" : "Follow-up",
+  "contactname" : "shaoshao", 
+  "quote": "QUOTE",
+  "dueday": "09/09/2018 23:15",
+  "taskdescription": "Follow up Shao Shao"
 }
-
 ]

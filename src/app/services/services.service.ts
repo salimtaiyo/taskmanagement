@@ -9,6 +9,7 @@ import { Http } from '@angular/http';
 
 export class ServicesService {
   private url:string = '../../assets/data.json';
+  
   constructor(private http:Http) { 
 
   }

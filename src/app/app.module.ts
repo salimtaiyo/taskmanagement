@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule, Http } from '@angular/http';
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppRoutingModule, routingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,11 @@ import { SharedModule } from './shared/shared.module';
 
 import {ButtonModule} from 'primeng/button';
 import {TableModule} from 'primeng/table';
+import {PaginatorModule} from 'primeng/paginator';
+import { DataTableModule } from 'primeng/primeng';
+import {CalendarModule} from 'primeng/calendar';
+import { UpdateComponent } from './table/update/update.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +26,8 @@ import {TableModule} from 'primeng/table';
     HeaderComponent,
     TableComponent,
     AddComponent,
-    routingModule
+    routingModule,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +37,11 @@ import {TableModule} from 'primeng/table';
     HttpModule,
     AppRoutingModule,
     TableModule,
-    ButtonModule
+    ButtonModule,
+    PaginatorModule,
+    DataTableModule,
+    BrowserAnimationsModule,
+    CalendarModule
     
   ],
   providers: [],

@@ -4,9 +4,7 @@
     -webkit-box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.75);
-    /* position: absolute;
-    top: 0; */
-    height: 90vh;
+    height: 99vh;
     overflow: scroll;
 }
 
@@ -15,6 +13,18 @@
   height: 10vh;
   width: 100%;
   color: #eee;
+  font-size: 120%;
+}
+
+ /* close button */
+ .form__close{
+  padding: .7rem;
+  outline: none;
+}
+
+.form__close:hover{
+  cursor: pointer;
+  color: red;
 }
 
 .form__header h5{
@@ -53,3 +63,10 @@
     color: rgba(0, 0, 0, 0.863);
     /* border: rgba(83, 83, 83, 0.795); */
   }
+
+  /* form time (date and time color match) */
+  .form__time{
+    color:rgba(109, 105, 105, 0.904);
+  }
+
+ 
