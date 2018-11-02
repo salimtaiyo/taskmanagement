@@ -39,9 +39,7 @@ export class TableComponent implements OnInit {
     this.fetchedData = JSON.parse(localStorage.getItem('order'));
   }
 
-  ngOnInit() {
-    this.checkLocalStorage();
-  }
+  ngOnInit() { this.checkLocalStorage() }
 
   // PRIMENG function for sort
   changeSort(event) {

@@ -3,9 +3,46 @@ table{
 }
 
 .table__search{
-    transform: translateX(33%);
+    transform: translateX(25%);
 }
 
+/* toggles the form */
 .hide{
     display: none;
+}
+
+#updatetable__form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 100vh;
+    background-color: rgba(92, 91, 91, 0.63);
+}
+
+.table__search--input{
+    width: 40%;
+    padding: .8rem 1.8rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.table__search--logo{
+    padding: .9rem;
+}
+
+.table__header{
+    font-size: 1.2rem;
+}
+
+
+/* two side buttons */
+.table__toggle, .table__update{
+    background-color: rgba(34, 33, 33, 0.877);
+    border: 2px solid rgba(82, 79, 79, 0.733);
+}
+
+.table__toggle:hover, .table__update:hover{
+    background-color: rgba(167, 54, 54, 0.877);
+    border: 2px solid rgba(167, 54, 54, 0.877);
 }

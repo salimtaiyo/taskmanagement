@@ -1,10 +1,15 @@
+<!-- header component -->
 <app-header></app-header>
+<br>
 
+<!-- search bar -->
 <div class="table__search" style="padding:4px 10px;border-bottom: 0 none">
-    <i class="fa fa-search" style="margin:4px 4px 0 0"></i>
-    <input #gb type="text" pInputText size="50" placeholder="Global Filter">
+    <i class="fa fa-search table__search--logo" style="margin:4px 4px 0 0"></i>
+    <input #gb type="text" pInputText size="50" placeholder="Global Filter" class="table__search--input">
 </div>
 
+<br>
+<!-- data table | PRIMENG -->
  <p-dataTable 
     [globalFilter]="gb"
     [value]="fetchedData" 
@@ -16,7 +21,7 @@
     [sortOrder]="sortO" 
     (onSort)="changeSort($event)">
 
-    <p-header>List of Orders</p-header>
+    <p-header class="table__header">List Of Orders</p-header>
     <p-column field="quotetype" header="Quote Type" [sortable]="true"></p-column>
     <p-column field="quotenumber" header=" Quote#" [sortable]="true" *ngIf="show"></p-column>
     <p-column field="contactname" class="hello" header="Contact" [sortable]="true"></p-column>
@@ -27,17 +32,25 @@
     <!-- showmore and update buttons -->
     <p-column> 
             <ng-template let-data="rowData" pTemplate="body">
-                <span type="button" pButton (click)="show = !show" icon="fa fa-eye"> </span>
-                <span type="button" pButton (click)="status = !status; tu.update(data)" icon="fa fa-pencil"> </span>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+
+                <span type="button" pButton (click)="show = !show" icon="fa fa-eye" class="table__toggle"> </span>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <span type="button" pButton (click)="status = !status; updateTable.update(data)" icon="fa fa-pencil" class="table__update"> </span>
             </ng-template>
     </p-column>
 
 <p-footer>There are {{ fetchedData.length}} Datas </p-footer>
 </p-dataTable>
 
-<div [ngClass]="status? 'hide': 'show'">
-<app-update (notify)=onNotifyClicked() #tu> </app-update>
-
+<!-- update component table | initally hidden |  -->
+<div [ngClass]="status? 'hide': 'show'" id="updatetable__form">
+    <app-update (notify)=onNotifyClicked() #updateTable> </app-update>
 </div>
-
-

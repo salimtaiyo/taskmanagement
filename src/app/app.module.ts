@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
-import { FormsModule } from '@angular/forms';
+import { FormsModule }   from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { TitleCasePipe } from './app.titlecasepipe';
 
 import { AppRoutingModule, routingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,12 +19,12 @@ import {PaginatorModule} from 'primeng/paginator';
 import { DataTableModule } from 'primeng/primeng';
 import {CalendarModule} from 'primeng/calendar';
 import { UpdateComponent } from './table/update/update.component';
-import {GrowlModule,Message} from 'primeng/primeng';
 
 
 
 @NgModule({
   declarations: [
+    TitleCasePipe,
     AppComponent,
     HeaderComponent,
     TableComponent,
@@ -44,8 +45,6 @@ import {GrowlModule,Message} from 'primeng/primeng';
     DataTableModule,
     BrowserAnimationsModule,
     CalendarModule,
-    GrowlModule,
-    FormsModule
     
   ],
   providers: [],

@@ -1,4 +1,4 @@
-<div class="form" >
+<div class="form update__form" >
 
   <div class="form__header">
     <h5 class="form__head"> Update task </h5>
@@ -17,6 +17,7 @@
       <mat-form-field>
         <input matInput 
                 placeholder="Quote Type"
+                maxlength="2"
                 name="quotetype" 
                 [(ngModel)]="quotetype"
                 value={{quotetype}}
@@ -43,6 +44,7 @@
 
       <mat-form-field>
         <input matInput 
+                type="number"
                 placeholder="Quote Number"
                 name="quotenumber" 
                 [(ngModel)]="quotenumber"
@@ -85,6 +87,10 @@
               </p-calendar>
         </label>
 
-      <button id="form__button" (click)="updateData(employeeUpdate); onClick()" routerLink="/"> Update </button>
+      <button 
+          class="update__button" 
+          (click)="updateData(employeeUpdate); onClick()" 
+          routerLink="/"
+          [disabled]="employeeUpdate.invalid"> Update </button>
   </form>
 </div>

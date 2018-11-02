@@ -16,6 +16,7 @@
       <mat-form-field>
         <input matInput 
                 placeholder="Quote Type"
+                maxlength="2"
                 name="quotetype" 
                 [(ngModel)]="quotetype"
                 required>
@@ -39,6 +40,7 @@
 
       <mat-form-field>
         <input matInput 
+                type="number"
                 placeholder="Quote Number"
                 name="quotenumber" 
                 [(ngModel)]="quotenumber"
@@ -76,6 +78,10 @@
               </p-calendar>
         </label>
 
-      <button id="form__button" (click)="submit(employeeForms)" routerLink="/"> Submit </button>
+      <button id="form__button" 
+              type="button"
+              (click)="submit(employeeForms)" 
+              routerLink="/"
+              [disabled]="employeeForms.invalid"> Submit </button>
   </form>
 </div>
