@@ -2,7 +2,7 @@
 
   <div class="form__header">
     <h5 class="form__head"> Update task </h5>
-    <div routerLink="" class="fa fa-close form__close"></div>
+    <div (click)="onClick()" class="fa fa-close form__close"></div>
   </div>
 
   <form class="example-container" #employeeUpdate="ngForm">
@@ -85,6 +85,6 @@
               </p-calendar>
         </label>
 
-      <button id="form__button" (click)="updateData(employeeUpdate)" routerLink="/"> Update </button>
+      <button id="form__button" (click)="updateData(employeeUpdate); onClick()" routerLink="/"> Update </button>
   </form>
 </div>

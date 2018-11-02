@@ -9,15 +9,19 @@ import { ServicesService } from '../services/services.service';
 }) 
 
 export class TableComponent implements OnInit {
-  public status:Boolean = true;
-  public su:Boolean = false;
-  public show:Boolean = false;
+  public status:Boolean = true; // invoked from the child component (Update) toggles update child
+  public show:Boolean = false; // toggles the quote# in the table
+
   posts:any;
   Tasklist : Task[];
   public fetchedData:any[]=[];
-  sortF;
+  sortF; // PRIMENG declaration for sorting
 
-  
+  // invoked from the  child component 
+  onNotifyClicked(message:string):void{
+    this.status = !this.status;
+    this.checkLocalStorage();
+  }
   
   constructor(private checkService: ServicesService) {}
 
@@ -39,6 +43,7 @@ export class TableComponent implements OnInit {
     this.checkLocalStorage();
   }
 
+  // PRIMENG function for sort
   changeSort(event) {
     if (!event.order) {
       this.sortF = 'year';
@@ -46,10 +51,6 @@ export class TableComponent implements OnInit {
       this.sortF = event.field;
     }
   }   
-
-  toggle(){
-    console.log('hello')
-  }
 }
 
 // function c(){
