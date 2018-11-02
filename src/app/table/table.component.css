@@ -5,3 +5,7 @@ table{
 .table__search{
     transform: translateX(33%);
 }
+
+.yooo{
+    display: none;
+}

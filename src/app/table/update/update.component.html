@@ -1,3 +1,90 @@
-<p>
-  update works!
-</p>
+<div class="form" >
+
+  <div class="form__header">
+    <h5 class="form__head"> Update task </h5>
+    <div routerLink="" class="fa fa-close form__close"></div>
+  </div>
+
+  <form class="example-container" #employeeUpdate="ngForm">
+
+      <mat-form-field>
+        <mat-select placeholder="Status" name="status" [(ngModel)]="status" required value={{status}}>
+          <mat-option value="open"> Open</mat-option>
+          <mat-option value="closed"> Closed </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput 
+                placeholder="Quote Type"
+                name="quotetype" 
+                [(ngModel)]="quotetype"
+                value={{quotetype}}
+                required>
+      </mat-form-field>
+    
+      <mat-form-field>
+        <input matInput 
+                placeholder="Task Type" 
+                name="tasktype" 
+                [(ngModel)]="tasktype" 
+                value={{tasktype}}
+                required>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput 
+                placeholder="Contact Name" 
+                name="contactname" 
+                [(ngModel)]="contactname"
+                value={{contactname}}
+                required>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput 
+                placeholder="Quote Number"
+                name="quotenumber" 
+                [(ngModel)]="quotenumber"
+                value={{quotenumber}}
+                required>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput 
+               placeholder="Quote" 
+               name="quote" 
+               [(ngModel)]="quote"
+               value={{quote}}
+               required>
+      </mat-form-field>
+    
+      <mat-form-field>
+        <textarea matInput 
+                  placeholder="Task Description" 
+                  name="taskdescription"
+                  [(ngModel)]="taskdescription"
+                  value={{taskdescription}}
+                  required></textarea>
+      </mat-form-field>
+
+      <label for="form__dt" class="form__time">
+          Date and time:
+            <p-calendar 
+                required
+                name="form__dt" 
+                [(ngModel)]="dateValue"
+                dateFormat="dd.mm.yy" 
+                showTime="true" 
+                hourFormat="24" 
+                name="fullDate" 
+                [(ngModel)]="fullDate"
+                [showIcon]="true"
+                
+                >
+              </p-calendar>
+        </label>
+
+      <button id="form__button" (click)="updateData(employeeUpdate)" routerLink="/"> Update </button>
+  </form>
+</div>

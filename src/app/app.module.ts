@@ -18,6 +18,8 @@ import {PaginatorModule} from 'primeng/paginator';
 import { DataTableModule } from 'primeng/primeng';
 import {CalendarModule} from 'primeng/calendar';
 import { UpdateComponent } from './table/update/update.component';
+import {GrowlModule,Message} from 'primeng/primeng';
+
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { UpdateComponent } from './table/update/update.component';
     PaginatorModule,
     DataTableModule,
     BrowserAnimationsModule,
-    CalendarModule
+    CalendarModule,
+    GrowlModule,
+    FormsModule
     
   ],
   providers: [],

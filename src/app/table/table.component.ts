@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Task } from '../task'
 import { ServicesService } from '../services/services.service';
 
@@ -9,11 +9,15 @@ import { ServicesService } from '../services/services.service';
 }) 
 
 export class TableComponent implements OnInit {
-  public show = false;
+  public status:Boolean = true;
+  public su:Boolean = false;
+  public show:Boolean = false;
   posts:any;
   Tasklist : Task[];
   public fetchedData:any[]=[];
   sortF;
+
+  
   
   constructor(private checkService: ServicesService) {}
 
@@ -41,7 +45,11 @@ export class TableComponent implements OnInit {
     } else {
       this.sortF = event.field;
     }
-}   
+  }   
+
+  toggle(){
+    console.log('hello')
+  }
 }
 
 // function c(){
